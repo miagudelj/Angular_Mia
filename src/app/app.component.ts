@@ -9,5 +9,7 @@ import {COURSES} from '../db-data';
 export class AppComponent {
 
 
+  coreCourses = COURSES[0];
+  rxjsCourse = COURSES[1];
 
 }
