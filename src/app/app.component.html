@@ -8,9 +8,10 @@
 
 <div class="courses">
 
-  <h1>{{rxjsCourse.description}}</h1>
- <course-card></course-card>
- <course-card></course-card>
+ <course-card [course]="beginnerCourses"></course-card>
+ <course-card [course]="architectureCourses"></course-card>
+ <course-card [course]="rxjsCourse"></course-card>
+ <course-card [course]="completeTSCourse"></course-card>
 
   <!--kommt in code von course-card.component.html
   <div class="course-card">
